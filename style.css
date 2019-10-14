@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #caf09a;
+    margin: 0 200px 20px;
+}
+
+header {
+    margin: 20px auto;
+}
+
+.horse {
+    display: block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    color: #3735bb;
+    transition: .5s;
+}
+
+h1:hover {
+    font-size: 55px;
+}
+
+hr {
+    border: 1px solid black;
+    border-style: dashed;
+    margin-bottom: 10px;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    margin-bottom: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 16px;
+}
+
+.image img:hover {
+    content: url('img/rumak.jpg');
+}
+
+.miniatures {
+    text-align: center;
+}
+
+#img1 {
+    border: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#img2 {
+    border: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#img3 {
+    border: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#img4 {
+    border: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#img5 {
+    border: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.text {
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    text-indent: 2cm;
+    color: #636262;
+    margin: 10px 15px;
+}
+
+.text::first-letter {
+    font-size: 250%;
+    font-weight: bold;
+    font-family: 'Parisienne', sans-serif;
+    line-height: 0.8;
+}
+
+footer {
+    background-color: #d5d818;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+footer:hover {
+    background-color: #fff;
+    color: red;
+}
